@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Hero() {
   return (
     <section className="border-b border-slate-200 bg-slate-50">
@@ -22,7 +23,7 @@ export default function Hero() {
               Ver usuários
             </a>
             <a
-              href="./sobre.html"
+              href="/about"
               className="rounded-full border border-slate-300 bg-white px-5 py-3 text-sm font-bold text-app-dark hover:bg-slate-50"
             >
               Sobre o projeto

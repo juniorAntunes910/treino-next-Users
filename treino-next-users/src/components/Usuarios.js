@@ -59,7 +59,7 @@ export default async function Usuarios() {
                     imagem: user.picture.large
                 }
               }}
-              className="mt-5 inline-flex text-sm font-extrabold text-app-primary hover:text-blue-800"
+              className="mt-5 inline-flex text-sm font-extrabold text-blue-500 hover:text-blue-800"
 
             >
               Ver perfil
